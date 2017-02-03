@@ -23,7 +23,7 @@ header h1 {
 	color: inherit;
 }
 
-nav {
+.nav-top {
 	position: fixed;
 	top: -5px;
 	right: 30px;
@@ -72,3 +72,33 @@ form {
 	position: relative;
 	top: 8px;
 }
+
+/*Navigation buttons*/
+.pages {
+	margin-top: 40px;
+	margin-left: 60px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.pages-prev-button {
+	padding: 10px;
+	height: 30px;
+	border: 1px solid lightgrey;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.pages-next-button {
+	padding: 10px;
+	height: 30px;
+	border: 1px solid lightgrey;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.pages-number {
+	padding: 10px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
