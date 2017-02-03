@@ -1,3 +1,8 @@
+/*font for the website*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
 /*navigation bar*/
 header {
 	background-color: #ececec;
@@ -10,7 +15,6 @@ header {
 }
 
 header h1 {
-	font-family: 'Roboto', sans-serif;
 	margin: 10px;
 	padding-left: 20px;
 	font-size: 25px;
@@ -36,7 +40,6 @@ header ul {
 
 header li {
 	display: inline-block;
-	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
 	padding-left: 20px;
 }
@@ -77,7 +80,11 @@ form {
 .pages {
 	margin-top: 40px;
 	margin-left: 60px;
-	font-family: 'Roboto', sans-serif;
+}
+
+.pages a {
+	text-decoration: none;
+	color: black;
 }
 
 .pages-prev-button {
@@ -102,3 +109,28 @@ form {
 	border-bottom: 1px solid lightgrey;
 }
 
+/*Main content*/
+.main-content {
+	margin-top: 50px;
+	margin-left: 60px;
+	font-size: 20px;
+	color: grey;
+}
+
+.ads {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.ads li {
+	padding-top: 15px;
+}
+
+.ads a {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
