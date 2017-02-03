@@ -1,0 +1,74 @@
+/*navigation bar*/
+header {
+	background-color: #ececec;
+	position: fixed;
+	border-bottom: 1px solid lightgrey;
+	height: 50px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+header h1 {
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+	padding-left: 20px;
+	font-size: 25px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+.title {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav {
+	position: fixed;
+	top: -5px;
+	right: 30px;
+}
+
+header ul {
+	display: inline-block;
+	list-style: none;
+}
+
+header li {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+.nav-sections {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.nav-sections:hover {
+	color: black;
+}
+
+/*seach section*/
+form {
+	margin-top: 90px;
+	margin-left: 60px;
+}
+
+.search-bar {
+	width: 400px;
+	height: 30px;
+	border: 1px solid lightgrey;
+	font-size: 20px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.search-button {
+	height: 30px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	position: relative;
+	top: 8px;
+}
